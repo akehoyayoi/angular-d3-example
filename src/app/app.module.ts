@@ -5,10 +5,12 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { MatGridListModule } from '@angular/material/grid-list';
 
 import { AppComponent } from './app.component';
+import { BubblesComponent } from './bubbles/bubbles.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BubblesComponent
   ],
   imports: [
     BrowserModule,

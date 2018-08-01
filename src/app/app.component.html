@@ -1,6 +1,8 @@
 <mat-grid-list cols="2" rowHeight="2:1" style="padding:10px">
-  <mat-grid-tile>1</mat-grid-tile>
-  <mat-grid-tile>2</mat-grid-tile>
-  <mat-grid-tile>3</mat-grid-tile>
-  <mat-grid-tile>4</mat-grid-tile>
+  <mat-grid-tile>
+    <bubbles [values]="[1000, 25000, 3000000, 120000, 25, 10203]"></bubbles>
+  </mat-grid-tile>
+  <mat-grid-tile class="lightblue">2</mat-grid-tile>
+  <mat-grid-tile class="lightblue">3</mat-grid-tile>
+  <mat-grid-tile class="lightblue">4</mat-grid-tile>
 </mat-grid-list>
