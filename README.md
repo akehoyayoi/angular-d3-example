@@ -25,3 +25,11 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Integrate D3.js memo
+
+This project is example project.
+`src/app/bubbles` is integrate example structure.
+This example implements component directive.
+`bubbles.chart.ts` is rendering logic by D3.js that consider dom structure.
+`bubbles.component.ts` is wrapper for angular component that doesn't consider dom structure.
